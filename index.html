@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Calendar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div id="month-banner">
+            <button id="previous-month" class="arrow">&#8592;</button> 
+            <h2 id="month-name"></h2>
+            <button id="next-month" class="arrow">&#8594;</button>    
+
+        </div>
+        <div id="todo">
+            <h3 id="todoHeadline"></h3>
+            <input type="text" placeholder="Enter a task" autofocus id="task-input"/>
+            <button id="add-task">Add Event</button>
+        </div>
+        <div class="calendar">
+            <div class="day-banner">
+                <h3>Monday</h3>
+                <h3>Tuesday</h3>
+                <h3>Wednesday</h3>
+                <h3>Thursday</h3>
+                <h3>Friday</h3>
+                <h3>Saturday</h3>
+                <h3>Sunday</h3>
+            </div>
+
+            <div id="days">
+                <div class="week">
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                </div>
+                <div class="week">
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                </div>
+                <div class="week">
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                </div>
+                <div class="week">
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                </div>
+                <div class="week">
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                </div>
+                <div class="week">
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                    <div class="day"><p></p></div>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+    <script src="day.js"></script>
+    <script src="month.js"></script>
+    <script src="calendar.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
